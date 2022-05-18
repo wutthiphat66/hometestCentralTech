@@ -1,0 +1,32 @@
+{
+  "name": "test-cypress",
+  "version": "1.0.0",
+  "description": "Cypress Automationby me",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "author": "Atchariya",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.6.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-xpath": "^1.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernfernies/test-cypress.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fernfernies/test-cypress/issues"
+  },
+  "homepage": "https://github.com/fernfernies/test-cypress#readme",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.2.0",
+    "typescript": "^4.6.4"
+  }
+}
